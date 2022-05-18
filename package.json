@@ -1,0 +1,23 @@
+{
+  "name": "zilswap",
+  "version": "1.0.0",
+  "description": "Zilswap is a fully decentralized protocol for ZRC-2 token exchanges on Zilliqa.",
+  "main": "index.js",
+  "repository": "https://github.com/iceymann18777/zilswaps.git",
+  "author": "Adam Khader <adamkhader187@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "test": "jest -i"
+  },
+  "dependencies": {
+    "@zilliqa-js/zilliqa": "^1.0.0",
+    "bignumber.js": "^9.0.0",
+    "bn.js": "^5.1.2",
+    "dotenv": "^8.2.0",
+    "tslib": "^2.0.1"
+  },
+  "devDependencies": {
+    "jest": "^26.4.2"
+  }
+}
